@@ -9,7 +9,6 @@ import {
   FaEnvelope,
   FaChevronRight,
 } from "react-icons/fa";
-import Link from "next/link";
 
 const Footer = () => {
   return (

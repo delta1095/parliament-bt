@@ -9,10 +9,10 @@ const slides = [
     src: "/slider/1.jpg",
     caption: (
       <p>
-        The Parliament of Bhutan is the country's highest law-making body or
-        legislature. The Parliament, through elected and appointed
-        representatives, passes laws, scrutinizes the work of government and
-        deliberates and decides on issues of national concern.
+        The Parliament of Bhutan is the highest law-making body or legislature.
+        The Parliament, through elected and appointed representatives, passes
+        laws, scrutinizes the work of government and deliberates and decides on
+        issues of national concern.
       </p>
     ),
   },

@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
 import News from "@/components/News";
 import Slider from "@/components/Slider";
-import Image from "next/image";
 
 export default function Home() {
   return (
