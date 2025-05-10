@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import News from "@/components/News";
 import Slider from "@/components/Slider";
 import Section from "@/components/Section";
+import DemoForm from "@/components/DemoForm";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
       </div>
       <Section />
       <News />
+      <DemoForm />
       <Footer />
     </main>
   );
