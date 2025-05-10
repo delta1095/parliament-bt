@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import { Header } from "@/components/Header";
 import News from "@/components/News";
 import Slider from "@/components/Slider";
+import Section from "@/components/Section";
 
 export default function Home() {
   return (
@@ -69,6 +70,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Section />
       <News />
       <Footer />
     </main>

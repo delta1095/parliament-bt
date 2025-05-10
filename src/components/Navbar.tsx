@@ -49,9 +49,31 @@ export const Navbar = () => {
         <Link href="/visit-parliament" className="hover:underline">
           Visit Parliament
         </Link>
-        <Link href="/faq" className="hover:underline">
-          FAQ
-        </Link>
+        <DropdownMenu.Root>
+          <DropdownMenu.Trigger asChild>
+            <button className="hover:underline focus:outline-none">
+              Committes
+            </button>
+          </DropdownMenu.Trigger>
+          <DropdownMenu.Content className="bg-white text-black rounded shadow-md py-2 px-2 mt-2 z-20">
+            <DropdownMenu.Item asChild>
+              <Link
+                href="/about/about-parliament"
+                className="block px-2 py-1 hover:bg-gray-100 rounded"
+              >
+                National Assembly
+              </Link>
+            </DropdownMenu.Item>
+            <DropdownMenu.Item asChild>
+              <Link
+                href="/about/history"
+                className="block px-2 py-1 hover:bg-gray-100 rounded"
+              >
+                National Council
+              </Link>
+            </DropdownMenu.Item>
+          </DropdownMenu.Content>
+        </DropdownMenu.Root>
         <Link href="/contact" className="hover:underline">
           Contact
         </Link>
