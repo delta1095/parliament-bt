@@ -6,7 +6,7 @@ export const ParliamentSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <img
-            src="/web/20250301020717im_/https://parliament.bt/uploads/topics/16818179094594.png"
+            src="/16818179094594.png"
             alt="HM's Crown Image"
             className="mx-auto w-auto h-auto max-w-[200px]"
           />
@@ -22,7 +22,7 @@ export const ParliamentSection: React.FC = () => {
           <div className="border-r-2 border-gray-300 pr-4">
             <div className="text-center">
               <img
-                src="/web/20250301020717im_/https://parliament.bt/uploads/banners/nc-logo.png"
+                src="/nc-logo.png"
                 alt="National Council Logo"
                 className="inline-block w-36 h-36"
               />
@@ -74,7 +74,7 @@ export const ParliamentSection: React.FC = () => {
           <div>
             <div className="text-center">
               <img
-                src="/web/20250301020717im_/https://parliament.bt/uploads/banners/na-logo.png"
+                src="/na-logo.png"
                 alt="National Assembly Logo"
                 className="inline-block w-36 h-36"
               />
